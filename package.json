@@ -1,0 +1,19 @@
+{
+  "name": "es6-babel",
+  "version": "1.0.0",
+  "description": "Getting to use ECMAScript 6 (aka ECMAScript 2015)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/index.js -d lib",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "author": "chrek <chrekonweb@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1"
+  }
+}
